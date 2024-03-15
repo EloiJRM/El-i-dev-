@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+ *{margin: 0;
+    padding:0;
+    border:0;}
+ body{ background-color: rgb(255, 0, 0);
+    
+    }
+    header{
+    padding: 32px;
+    border-bottom:3px solid rgb(5, 94, 247);
+    background-color: rgb(218, 255, 8);
+    }
+    header div{
+    text-align: center; 
+    }
+    header div a{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+    line-height: 30px;
+    margin: 0 16px;
+    text-decoration: none;
+    font-family: "Bitter", serif;
+    }
+    header div a:hover{
+    color: rgb(48, 10, 237);
+    transition: color 700ms;
+    }
+
+    
