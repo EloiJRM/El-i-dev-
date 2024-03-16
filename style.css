@@ -2,12 +2,11 @@
  *{margin: 0;
     padding:0;
     border:0;}
- body{ background-color: rgb(255, 0, 0);
-    
+ body{ background-color: rgb(0, 0, 0);
     }
     header{
     padding: 32px;
-    border-bottom:3px solid rgb(5, 94, 247);
+    border-bottom:3px solid blue ;
     background-color: rgb(0, 0, 0);
     }
     header div{
@@ -51,4 +50,28 @@
    margin: 32px auto;
    font-size: 24px;
    line-height: 34px;
+}
+#box a{
+   color: aqua;
+   transition:600ms
+}
+.links{
+   text-align: center;
+}
+.links{
+   color: white;
+   font-size: 20px;
+   line-height: 30px;
+   margin: 0 16px;
+   text-decoration: none;
+}
+.links a :hover{
+color: green;
+transition: 600ms;
+font-size: 23px;
+}
+#linksfooter{
+   padding-top: 32px;
+   padding-bottom: 8px;
+   border-bottom: 3px solid rgb(16, 225, 16);
 }
